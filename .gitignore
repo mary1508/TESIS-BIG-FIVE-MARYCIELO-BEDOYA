@@ -1,0 +1,25 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Base de datos local (contiene datos de participantes y la cuenta de la investigadora)
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Variables de entorno y claves
+.env
+*.env
+
+# Archivos de editor y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
